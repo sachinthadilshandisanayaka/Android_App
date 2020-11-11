@@ -34,7 +34,7 @@
             android:inputType="textPersonName" />
     </LinearLayout>
 
-    <fragment
+    <FrameLayout
         android:name="com.dissanayake.practiceteories.FirstFragment"
         android:id="@+id/mainFragment"
         android:layout_width="383dp"
@@ -45,5 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idName">
 
-    </fragment>
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
