@@ -35,8 +35,7 @@
     </LinearLayout>
 
     <FrameLayout
-        android:name="com.dissanayake.practiceteories.FirstFragment"
-        android:id="@+id/mainFragment"
+        android:id="@+id/mainFrameLayout"
         android:layout_width="383dp"
         android:layout_height="434dp"
         android:layout_marginBottom="4dp"
