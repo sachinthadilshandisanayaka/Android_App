@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PracticeTeories</string>
+    <string name="for_Address">Enter Address</string>
+    <string name="user_name">User name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
