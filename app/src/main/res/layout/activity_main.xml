@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/btnOne"
+        android:id="@+id/btnFragmentOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button 1"
