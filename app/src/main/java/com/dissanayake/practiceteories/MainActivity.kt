@@ -1,5 +1,6 @@
 package com.dissanayake.practiceteories
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -8,6 +9,9 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.Button
 import android.widget.Toast
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import com.google.android.material.snackbar.BaseTransientBottomBar
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +39,17 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
+        val coordinatorId = findViewById<CoordinatorLayout>(R.id.coordinatorLayout)
+        floatingActionButton2.setOnClickListener {
+            Snackbar.make(coordinatorId, "Show Toast message", Snackbar.LENGTH_LONG)
+                    .setAction("show now"){ Toast.makeText(this, "An action showing", Toast.LENGTH_SHORT).show() }
+                    .setBackgroundTint(Color.parseColor("#5D6D7E"))
+                    .setAnimationMode(BaseTransientBottomBar.ANIMATION_MODE_FADE)
+                    .show()
+        }
+
     }
+
 
     // this method must be public
     public fun onSearchClick(menuItem: MenuItem) {
