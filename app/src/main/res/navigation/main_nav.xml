@@ -9,10 +9,18 @@
         android:id="@+id/newFirstFragment"
         android:name="com.dissanayake.practiceteories.NewFirstFragment"
         android:label="fragment_new_first"
-        tools:layout="@layout/fragment_new_first" />
+        tools:layout="@layout/fragment_new_first" >
+        <action
+            android:id="@+id/action_newFirstFragment_to_navSecondFragment"
+            app:destination="@id/navSecondFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navSecondFragment"
         android:name="com.dissanayake.practiceteories.NavSecondFragment"
         android:label="fragment_nav_second"
-        tools:layout="@layout/fragment_nav_second" />
+        tools:layout="@layout/fragment_nav_second" >
+        <action
+            android:id="@+id/action_navSecondFragment_to_newFirstFragment"
+            app:destination="@id/newFirstFragment" />
+    </fragment>
 </navigation>
