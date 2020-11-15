@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.activity_a_second.view.*
 import kotlinx.android.synthetic.main.fragment_nav_second.view.*
+import kotlinx.android.synthetic.main.fragment_new_first.view.*
 
 class NewFirstFragment : Fragment() {
 

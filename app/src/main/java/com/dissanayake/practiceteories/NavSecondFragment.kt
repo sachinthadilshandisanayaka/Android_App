@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
+import kotlinx.android.synthetic.main.fragment_nav_second.view.*
 import kotlinx.android.synthetic.main.fragment_new_first.view.*
 
 class NavSecondFragment : Fragment() {

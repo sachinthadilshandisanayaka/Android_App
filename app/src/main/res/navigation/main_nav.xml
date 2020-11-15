@@ -13,8 +13,8 @@
         <action
             android:id="@+id/action_newFirstFragment_to_navSecondFragment"
             app:destination="@id/navSecondFragment"
-            app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@android:anim/slide_out_right" />
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
     </fragment>
     <fragment
         android:id="@+id/navSecondFragment"
@@ -25,6 +25,6 @@
             android:id="@+id/action_navSecondFragment_to_newFirstFragment"
             app:destination="@id/newFirstFragment"
             app:enterAnim="@android:anim/slide_in_left"
-            app:exitAnim="@android:anim/slide_out_right" />
+            app:exitAnim="@anim/fragment_fade_exit" />
     </fragment>
 </navigation>
