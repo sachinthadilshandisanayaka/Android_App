@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_new_first" >
         <action
             android:id="@+id/action_newFirstFragment_to_navSecondFragment"
-            app:destination="@id/navSecondFragment" />
+            app:destination="@id/navSecondFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/navSecondFragment"
