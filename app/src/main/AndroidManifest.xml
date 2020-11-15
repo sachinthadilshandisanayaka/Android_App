@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_mylogo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PracticeTeories">
+        <activity android:name=".ASecondActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

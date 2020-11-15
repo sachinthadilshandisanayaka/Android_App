@@ -1,5 +1,6 @@
 package com.dissanayake.practiceteories
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -42,7 +43,11 @@ class MainActivity : AppCompatActivity() {
         val coordinatorId = findViewById<CoordinatorLayout>(R.id.coordinatorLayout)
         floatingActionButton2.setOnClickListener {
             Snackbar.make(coordinatorId, "Show Toast message", Snackbar.LENGTH_LONG)
-                    .setAction("show now"){ Toast.makeText(this, "An action showing", Toast.LENGTH_SHORT).show() }
+                    .setAction("show now"){
+                        // move to second activity
+                        val navToSecondActivity = Intent(this, ASecondActivity::class.java)
+                        startActivity(navToSecondActivity)
+                    }
                     .setBackgroundTint(Color.parseColor("#5D6D7E"))
                     .setAnimationMode(BaseTransientBottomBar.ANIMATION_MODE_FADE)
                     .show()

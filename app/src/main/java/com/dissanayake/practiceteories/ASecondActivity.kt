@@ -1,0 +1,11 @@
+package com.dissanayake.practiceteories
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class ASecondActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_a_second)
+    }
+}
