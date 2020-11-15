@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/newFirstFragment">
 
+    <fragment
+        android:id="@+id/newFirstFragment"
+        android:name="com.dissanayake.practiceteories.NewFirstFragment"
+        android:label="fragment_new_first"
+        tools:layout="@layout/fragment_new_first" />
+    <fragment
+        android:id="@+id/navSecondFragment"
+        android:name="com.dissanayake.practiceteories.NavSecondFragment"
+        android:label="fragment_nav_second"
+        tools:layout="@layout/fragment_nav_second" />
 </navigation>
