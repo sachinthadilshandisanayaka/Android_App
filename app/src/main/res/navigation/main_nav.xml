@@ -26,5 +26,9 @@
             app:destination="@id/newFirstFragment"
             app:enterAnim="@android:anim/slide_in_left"
             app:exitAnim="@anim/fragment_fade_exit" />
+        <argument
+            android:name="number"
+            app:argType="integer"
+            android:defaultValue="2" />
     </fragment>
 </navigation>
