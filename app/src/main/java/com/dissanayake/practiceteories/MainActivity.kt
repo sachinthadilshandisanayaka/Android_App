@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
                 commit()
             }
         }
+        // second activity
         val coordinatorId = findViewById<CoordinatorLayout>(R.id.coordinatorLayout)
         floatingActionButton2.setOnClickListener {
             Snackbar.make(coordinatorId, "Show Toast message", Snackbar.LENGTH_LONG)
