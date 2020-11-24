@@ -20,6 +20,8 @@ class NewFirstFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_new_first, container, false)
 
         view.textView1.setOnClickListener {
+
+            // passing values to second fragment,A number is passed
             val action = NewFirstFragmentDirections.actionNewFirstFragmentToNavSecondFragment(1998)
             Navigation.findNavController(view).navigate(action)
         }
