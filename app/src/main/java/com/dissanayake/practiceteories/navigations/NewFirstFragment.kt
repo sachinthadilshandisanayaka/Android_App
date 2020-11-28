@@ -1,4 +1,4 @@
-package com.dissanayake.practiceteories
+package com.dissanayake.practiceteories.navigations
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
-import kotlinx.android.synthetic.main.activity_a_second.view.*
-import kotlinx.android.synthetic.main.fragment_nav_second.view.*
+import com.dissanayake.practiceteories.NewFirstFragmentDirections
+import com.dissanayake.practiceteories.R
 import kotlinx.android.synthetic.main.fragment_new_first.view.*
 
 class NewFirstFragment : Fragment() {

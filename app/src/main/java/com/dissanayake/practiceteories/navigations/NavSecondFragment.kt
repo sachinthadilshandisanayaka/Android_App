@@ -1,4 +1,4 @@
-package com.dissanayake.practiceteories
+package com.dissanayake.practiceteories.navigations
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
+import com.dissanayake.practiceteories.NavSecondFragmentArgs
+import com.dissanayake.practiceteories.R
 import kotlinx.android.synthetic.main.fragment_nav_second.view.*
-import kotlinx.android.synthetic.main.fragment_new_first.view.*
 
 class NavSecondFragment : Fragment() {
     // for passing arguments

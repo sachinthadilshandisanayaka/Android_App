@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/newFirstFragment"
-        android:name="com.dissanayake.practiceteories.NewFirstFragment"
+        android:name="com.dissanayake.practiceteories.navigations.NewFirstFragment"
         android:label="fragment_new_first"
         tools:layout="@layout/fragment_new_first" >
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/navSecondFragment"
-        android:name="com.dissanayake.practiceteories.NavSecondFragment"
+        android:name="com.dissanayake.practiceteories.navigations.NavSecondFragment"
         android:label="fragment_nav_second"
         tools:layout="@layout/fragment_nav_second" >
         <action

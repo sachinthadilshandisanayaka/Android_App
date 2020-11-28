@@ -1,10 +1,11 @@
-package com.dissanayake.practiceteories
+package com.dissanayake.practiceteories.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.dissanayake.practiceteories.R
 
 class SecondFragment : Fragment() {
 

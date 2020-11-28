@@ -1,4 +1,4 @@
-package com.dissanayake.practiceteories
+package com.dissanayake.practiceteories.activities
 
 import android.graphics.drawable.ColorDrawable
 import android.os.Build
@@ -12,8 +12,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.dissanayake.practiceteories.R
 import kotlinx.android.synthetic.main.activity_a_second.*
-import java.util.*
 
 class ASecondActivity : AppCompatActivity() {
 
