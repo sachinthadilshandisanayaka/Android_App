@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
-import com.dissanayake.practiceteories.NavSecondFragmentArgs
 import com.dissanayake.practiceteories.R
 import kotlinx.android.synthetic.main.fragment_nav_second.view.*
 

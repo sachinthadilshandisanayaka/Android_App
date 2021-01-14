@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
-import com.dissanayake.practiceteories.NewFirstFragmentDirections
 import com.dissanayake.practiceteories.R
 import kotlinx.android.synthetic.main.fragment_new_first.view.*
 
